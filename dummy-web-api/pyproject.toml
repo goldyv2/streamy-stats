@@ -1,0 +1,17 @@
+[project]
+name = "streamy-stats"
+description = "Proof of concept web api."
+authors = [
+    {name = "Goldy", email = "goldy@devgoldy.xyz"}
+]
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dependencies = [
+    "fastapi[standard]"
+]
+version = "1.0.0"
+
+[project.optional-dependencies]
+dev = [
+    "ruff"
+]
