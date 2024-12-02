@@ -29,7 +29,9 @@ function App() {
                     {/* Just some ghost grid elements to push the add widget button to the right */}
                     <div></div>
                     <div></div>
-                    <div></div>
+                    <div>
+                        TODO: widget dropdown will go here :)
+                    </div>
                     <button className="bg-gray-800 py-2 rounded-xl hover:bg-gray-600 transition" onClick={
                         () => {
                             setWidgets(
