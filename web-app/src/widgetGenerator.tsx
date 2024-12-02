@@ -7,7 +7,7 @@ export enum WidgetType {
 }
 
 // totally not hardcoding my dummy web api.
-const API_URL = "http://localhost:5173";
+// const API_URL = "http://localhost:5173";
 
 export function createWidget(type: WidgetType): ReactNode {
     if (type == WidgetType.STREAM) {
